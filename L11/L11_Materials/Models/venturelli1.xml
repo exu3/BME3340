@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
+  <model id="venturelli1" name="venturelli1">
+    <listOfCompartments>
+      <compartment metaid="metaid_0" sboTerm="SBO:0000410" id="default" spatialDimensions="0" size="1" constant="false"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species metaid="metaid_1" id="x1" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false"/>
+      <species metaid="metaid_2" id="x10" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false"/>
+      <species metaid="metaid_3" id="x11" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false"/>
+      <species metaid="metaid_4" id="x12" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false"/>
+      <species metaid="metaid_5" id="x2" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false"/>
+      <species metaid="metaid_6" id="x3" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false"/>
+      <species metaid="metaid_7" id="x4" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false"/>
+      <species metaid="metaid_8" id="x5" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false"/>
+      <species metaid="metaid_9" id="x6" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false"/>
+      <species metaid="metaid_10" id="x7" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false"/>
+      <species metaid="metaid_11" id="x8" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false"/>
+      <species metaid="metaid_12" id="x9" compartment="default" initialConcentration="1" hasOnlySubstanceUnits="false" boundaryCondition="true" constant="false"/>
+      <species metaid="metaid_13" id="xBH" compartment="default" initialConcentration="0.01" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_14" id="xBO" compartment="default" initialConcentration="0.01" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_15" id="xBT" compartment="default" initialConcentration="0.01" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_16" id="xBU" compartment="default" initialConcentration="0.01" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_17" id="xBV" compartment="default" initialConcentration="0.01" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_18" id="xCA" compartment="default" initialConcentration="0.01" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_19" id="xCH" compartment="default" initialConcentration="0.01" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_20" id="xDP" compartment="default" initialConcentration="0.01" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_21" id="xEL" compartment="default" initialConcentration="0.01" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_22" id="xER" compartment="default" initialConcentration="0.01" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_23" id="xFP" compartment="default" initialConcentration="0.01" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species metaid="metaid_24" id="xPC" compartment="default" initialConcentration="0.01" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfParameters>
+      <parameter metaid="metaid_25" id="aBHBH" value="-0.7905" constant="false"/>
+      <parameter metaid="metaid_26" id="aBHBO" value="0" constant="false"/>
+      <parameter metaid="metaid_27" id="aBHBT" value="0" constant="false"/>
+      <parameter metaid="metaid_28" id="aBHBU" value="0" constant="false"/>
+      <parameter metaid="metaid_29" id="aBHBV" value="0" constant="false"/>
+      <parameter metaid="metaid_30" id="aBHCA" value="0" constant="false"/>
+      <parameter metaid="metaid_31" id="aBHCH" value="0" constant="false"/>
+      <parameter metaid="metaid_32" id="aBHDP" value="0" constant="false"/>
+      <parameter metaid="metaid_33" id="aBHEL" value="0" constant="false"/>
+      <parameter metaid="metaid_34" id="aBHER" value="0" constant="false"/>
+      <parameter metaid="metaid_35" id="aBHFP" value="0" constant="false"/>
+      <parameter metaid="metaid_36" id="aBHPC" value="0" constant="false"/>
+      <parameter metaid="metaid_37" id="aBOBH" value="0" constant="false"/>
+      <parameter metaid="metaid_38" id="aBOBO" value="-1.082" constant="false"/>
+      <parameter metaid="metaid_39" id="aBOBT" value="0" constant="false"/>
+      <parameter metaid="metaid_40" id="aBOBU" value="0" constant="false"/>
+      <parameter metaid="metaid_41" id="aBOBV" value="0" constant="false"/>
+      <parameter metaid="metaid_42" id="aBOCA" value="0" constant="false"/>
+      <parameter metaid="metaid_43" id="aBOCH" value="0" constant="false"/>
+      <parameter metaid="metaid_44" id="aBODP" value="0" constant="false"/>
+      <parameter metaid="metaid_45" id="aBOEL" value="0" constant="false"/>
+      <parameter metaid="metaid_46" id="aBOER" value="0" constant="false"/>
+      <parameter metaid="metaid_47" id="aBOFP" value="0" constant="false"/>
+      <parameter metaid="metaid_48" id="aBOPC" value="0" constant="false"/>
+      <parameter metaid="metaid_49" id="aBTBH" value="0" constant="false"/>
+      <parameter metaid="metaid_50" id="aBTBO" value="0" constant="false"/>
+      <parameter metaid="metaid_51" id="aBTBT" value="-1.1639" constant="false"/>
+      <parameter metaid="metaid_52" id="aBTBU" value="0" constant="false"/>
+      <parameter metaid="metaid_53" id="aBTBV" value="0" constant="false"/>
+      <parameter metaid="metaid_54" id="aBTCA" value="0" constant="false"/>
+      <parameter metaid="metaid_55" id="aBTCH" value="0" constant="false"/>
+      <parameter metaid="metaid_56" id="aBTDP" value="0" constant="false"/>
+      <parameter metaid="metaid_57" id="aBTEL" value="0" constant="false"/>
+      <parameter metaid="metaid_58" id="aBTER" value="0" constant="false"/>
+      <parameter metaid="metaid_59" id="aBTFP" value="0" constant="false"/>
+      <parameter metaid="metaid_60" id="aBTPC" value="0" constant="false"/>
+      <parameter metaid="metaid_61" id="aBUBH" value="0" constant="false"/>
+      <parameter metaid="metaid_62" id="aBUBO" value="0" constant="false"/>
+      <parameter metaid="metaid_63" id="aBUBT" value="0" constant="false"/>
+      <parameter metaid="metaid_64" id="aBUBU" value="-1.1205" constant="false"/>
+      <parameter metaid="metaid_65" id="aBUBV" value="0" constant="false"/>
+      <parameter metaid="metaid_66" id="aBUCA" value="0" constant="false"/>
+      <parameter metaid="metaid_67" id="aBUCH" value="0" constant="false"/>
+      <parameter metaid="metaid_68" id="aBUDP" value="0" constant="false"/>
+      <parameter metaid="metaid_69" id="aBUEL" value="0" constant="false"/>
+      <parameter metaid="metaid_70" id="aBUER" value="0" constant="false"/>
+      <parameter metaid="metaid_71" id="aBUFP" value="0" constant="false"/>
+      <parameter metaid="metaid_72" id="aBUPC" value="0" constant="false"/>
+      <parameter metaid="metaid_73" id="aBVBH" value="0" constant="false"/>
+      <parameter metaid="metaid_74" id="aBVBO" value="0" constant="false"/>
+      <parameter metaid="metaid_75" id="aBVBT" value="0" constant="false"/>
+      <parameter metaid="metaid_76" id="aBVBU" value="0" constant="false"/>
+      <parameter metaid="metaid_77" id="aBVBV" value="-0.7535" constant="false"/>
+      <parameter metaid="metaid_78" id="aBVCA" value="0" constant="false"/>
+      <parameter metaid="metaid_79" id="aBVCH" value="0" constant="false"/>
+      <parameter metaid="metaid_80" id="aBVDP" value="0" constant="false"/>
+      <parameter metaid="metaid_81" id="aBVEL" value="0" constant="false"/>
+      <parameter metaid="metaid_82" id="aBVER" value="0" constant="false"/>
+      <parameter metaid="metaid_83" id="aBVFP" value="0" constant="false"/>
+      <parameter metaid="metaid_84" id="aBVPC" value="0" constant="false"/>
+      <parameter metaid="metaid_85" id="aCABH" value="0" constant="false"/>
+      <parameter metaid="metaid_86" id="aCABO" value="0" constant="false"/>
+      <parameter metaid="metaid_87" id="aCABT" value="0" constant="false"/>
+      <parameter metaid="metaid_88" id="aCABU" value="0" constant="false"/>
+      <parameter metaid="metaid_89" id="aCABV" value="0" constant="false"/>
+      <parameter metaid="metaid_90" id="aCACA" value="-0.7839" constant="false"/>
+      <parameter metaid="metaid_91" id="aCACH" value="0" constant="false"/>
+      <parameter metaid="metaid_92" id="aCADP" value="0" constant="false"/>
+      <parameter metaid="metaid_93" id="aCAEL" value="0" constant="false"/>
+      <parameter metaid="metaid_94" id="aCAER" value="0" constant="false"/>
+      <parameter metaid="metaid_95" id="aCAFP" value="0" constant="false"/>
+      <parameter metaid="metaid_96" id="aCAPC" value="0" constant="false"/>
+      <parameter metaid="metaid_97" id="aCHBH" value="0" constant="false"/>
+      <parameter metaid="metaid_98" id="aCHBO" value="0" constant="false"/>
+      <parameter metaid="metaid_99" id="aCHBT" value="0" constant="false"/>
+      <parameter metaid="metaid_100" id="aCHBU" value="0" constant="false"/>
+      <parameter metaid="metaid_101" id="aCHBV" value="0" constant="false"/>
+      <parameter metaid="metaid_102" id="aCHCA" value="0" constant="false"/>
+      <parameter metaid="metaid_103" id="aCHCH" value="-1.4921" constant="false"/>
+      <parameter metaid="metaid_104" id="aCHDP" value="0" constant="false"/>
+      <parameter metaid="metaid_105" id="aCHEL" value="0" constant="false"/>
+      <parameter metaid="metaid_106" id="aCHER" value="0" constant="false"/>
+      <parameter metaid="metaid_107" id="aCHFP" value="0" constant="false"/>
+      <parameter metaid="metaid_108" id="aCHPC" value="0" constant="false"/>
+      <parameter metaid="metaid_109" id="aDPBH" value="0" constant="false"/>
+      <parameter metaid="metaid_110" id="aDPBO" value="0" constant="false"/>
+      <parameter metaid="metaid_111" id="aDPBT" value="0" constant="false"/>
+      <parameter metaid="metaid_112" id="aDPBU" value="0" constant="false"/>
+      <parameter metaid="metaid_113" id="aDPBV" value="0" constant="false"/>
+      <parameter metaid="metaid_114" id="aDPCA" value="0" constant="false"/>
+      <parameter metaid="metaid_115" id="aDPCH" value="0" constant="false"/>
+      <parameter metaid="metaid_116" id="aDPDP" value="-0.6553" constant="false"/>
+      <parameter metaid="metaid_117" id="aDPEL" value="0" constant="false"/>
+      <parameter metaid="metaid_118" id="aDPER" value="0" constant="false"/>
+      <parameter metaid="metaid_119" id="aDPFP" value="0" constant="false"/>
+      <parameter metaid="metaid_120" id="aDPPC" value="0" constant="false"/>
+      <parameter metaid="metaid_121" id="aELBH" value="0" constant="false"/>
+      <parameter metaid="metaid_122" id="aELBO" value="0" constant="false"/>
+      <parameter metaid="metaid_123" id="aELBT" value="0" constant="false"/>
+      <parameter metaid="metaid_124" id="aELBU" value="0" constant="false"/>
+      <parameter metaid="metaid_125" id="aELBV" value="0" constant="false"/>
+      <parameter metaid="metaid_126" id="aELCA" value="0" constant="false"/>
+      <parameter metaid="metaid_127" id="aELCH" value="0" constant="false"/>
+      <parameter metaid="metaid_128" id="aELDP" value="0" constant="false"/>
+      <parameter metaid="metaid_129" id="aELEL" value="-0.6457" constant="false"/>
+      <parameter metaid="metaid_130" id="aELER" value="0" constant="false"/>
+      <parameter metaid="metaid_131" id="aELFP" value="0" constant="false"/>
+      <parameter metaid="metaid_132" id="aELPC" value="0" constant="false"/>
+      <parameter metaid="metaid_133" id="aERBH" value="0" constant="false"/>
+      <parameter metaid="metaid_134" id="aERBO" value="0" constant="false"/>
+      <parameter metaid="metaid_135" id="aERBT" value="0" constant="false"/>
+      <parameter metaid="metaid_136" id="aERBU" value="0" constant="false"/>
+      <parameter metaid="metaid_137" id="aERBV" value="0" constant="false"/>
+      <parameter metaid="metaid_138" id="aERCA" value="0" constant="false"/>
+      <parameter metaid="metaid_139" id="aERCH" value="0" constant="false"/>
+      <parameter metaid="metaid_140" id="aERDP" value="0" constant="false"/>
+      <parameter metaid="metaid_141" id="aEREL" value="0" constant="false"/>
+      <parameter metaid="metaid_142" id="aERER" value="-0.5581" constant="false"/>
+      <parameter metaid="metaid_143" id="aERFP" value="0" constant="false"/>
+      <parameter metaid="metaid_144" id="aERPC" value="0" constant="false"/>
+      <parameter metaid="metaid_145" id="aFPBH" value="0" constant="false"/>
+      <parameter metaid="metaid_146" id="aFPBO" value="0" constant="false"/>
+      <parameter metaid="metaid_147" id="aFPBT" value="0" constant="false"/>
+      <parameter metaid="metaid_148" id="aFPBU" value="0" constant="false"/>
+      <parameter metaid="metaid_149" id="aFPBV" value="0" constant="false"/>
+      <parameter metaid="metaid_150" id="aFPCA" value="0" constant="false"/>
+      <parameter metaid="metaid_151" id="aFPCH" value="0" constant="false"/>
+      <parameter metaid="metaid_152" id="aFPDP" value="0" constant="false"/>
+      <parameter metaid="metaid_153" id="aFPEL" value="0" constant="false"/>
+      <parameter metaid="metaid_154" id="aFPER" value="0" constant="false"/>
+      <parameter metaid="metaid_155" id="aFPFP" value="-0.5218" constant="false"/>
+      <parameter metaid="metaid_156" id="aFPPC" value="0" constant="false"/>
+      <parameter metaid="metaid_157" id="aPCBH" value="0" constant="false"/>
+      <parameter metaid="metaid_158" id="aPCBO" value="0" constant="false"/>
+      <parameter metaid="metaid_159" id="aPCBT" value="0" constant="false"/>
+      <parameter metaid="metaid_160" id="aPCBU" value="0" constant="false"/>
+      <parameter metaid="metaid_161" id="aPCBV" value="0" constant="false"/>
+      <parameter metaid="metaid_162" id="aPCCA" value="0" constant="false"/>
+      <parameter metaid="metaid_163" id="aPCCH" value="0" constant="false"/>
+      <parameter metaid="metaid_164" id="aPCDP" value="0" constant="false"/>
+      <parameter metaid="metaid_165" id="aPCEL" value="0" constant="false"/>
+      <parameter metaid="metaid_166" id="aPCER" value="0" constant="false"/>
+      <parameter metaid="metaid_167" id="aPCFP" value="0" constant="false"/>
+      <parameter metaid="metaid_168" id="aPCPC" value="-0.5146" constant="false"/>
+      <parameter metaid="metaid_169" id="fBH" value="0" constant="false"/>
+      <parameter metaid="metaid_170" id="fBO" value="0" constant="false"/>
+      <parameter metaid="metaid_171" id="fBT" value="0" constant="false"/>
+      <parameter metaid="metaid_172" id="fBU" value="0" constant="false"/>
+      <parameter metaid="metaid_173" id="fBV" value="0" constant="false"/>
+      <parameter metaid="metaid_174" id="fCA" value="0" constant="false"/>
+      <parameter metaid="metaid_175" id="fCH" value="0" constant="false"/>
+      <parameter metaid="metaid_176" id="fDP" value="0" constant="false"/>
+      <parameter metaid="metaid_177" id="fEL" value="0" constant="false"/>
+      <parameter metaid="metaid_178" id="fER" value="0" constant="false"/>
+      <parameter metaid="metaid_179" id="fFP" value="0" constant="false"/>
+      <parameter metaid="metaid_180" id="fPC" value="0" constant="false"/>
+      <parameter metaid="metaid_181" id="uBH" value="0.2972" constant="false"/>
+      <parameter metaid="metaid_182" id="uBO" value="0.7332" constant="false"/>
+      <parameter metaid="metaid_183" id="uBT" value="0.8777" constant="false"/>
+      <parameter metaid="metaid_184" id="uBU" value="0.7689" constant="false"/>
+      <parameter metaid="metaid_185" id="uBV" value="0.5834" constant="false"/>
+      <parameter metaid="metaid_186" id="uCA" value="0.3454" constant="false"/>
+      <parameter metaid="metaid_187" id="uCH" value="0.7103" constant="false"/>
+      <parameter metaid="metaid_188" id="uDP" value="0.2082" constant="false"/>
+      <parameter metaid="metaid_189" id="uEL" value="0.1715" constant="false"/>
+      <parameter metaid="metaid_190" id="uER" value="0.0904" constant="false"/>
+      <parameter metaid="metaid_191" id="uFP" value="0.1619" constant="false"/>
+      <parameter metaid="metaid_192" id="uPC" value="0.1262" constant="false"/>
+    </listOfParameters>
+    <listOfRules>
+      <assignmentRule metaid="metaid_193" variable="fBU">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> xBU </ci>
+            <apply>
+              <plus/>
+              <ci> xBH </ci>
+              <ci> xCA </ci>
+              <ci> xBU </ci>
+              <ci> xPC </ci>
+              <ci> xBO </ci>
+              <ci> xBV </ci>
+              <ci> xBT </ci>
+              <ci> xEL </ci>
+              <ci> xFP </ci>
+              <ci> xCH </ci>
+              <ci> xDP </ci>
+              <ci> xER </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule metaid="metaid_194" variable="fBH">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> xBH </ci>
+            <apply>
+              <plus/>
+              <ci> xBH </ci>
+              <ci> xCA </ci>
+              <ci> xBU </ci>
+              <ci> xPC </ci>
+              <ci> xBO </ci>
+              <ci> xBV </ci>
+              <ci> xBT </ci>
+              <ci> xEL </ci>
+              <ci> xFP </ci>
+              <ci> xCH </ci>
+              <ci> xDP </ci>
+              <ci> xER </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule metaid="metaid_195" variable="fBV">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> xBV </ci>
+            <apply>
+              <plus/>
+              <ci> xBH </ci>
+              <ci> xCA </ci>
+              <ci> xBU </ci>
+              <ci> xPC </ci>
+              <ci> xBO </ci>
+              <ci> xBV </ci>
+              <ci> xBT </ci>
+              <ci> xEL </ci>
+              <ci> xFP </ci>
+              <ci> xCH </ci>
+              <ci> xDP </ci>
+              <ci> xER </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule metaid="metaid_196" variable="fPC">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> xPC </ci>
+            <apply>
+              <plus/>
+              <ci> xBH </ci>
+              <ci> xCA </ci>
+              <ci> xBU </ci>
+              <ci> xPC </ci>
+              <ci> xBO </ci>
+              <ci> xBV </ci>
+              <ci> xBT </ci>
+              <ci> xEL </ci>
+              <ci> xFP </ci>
+              <ci> xCH </ci>
+              <ci> xDP </ci>
+              <ci> xER </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule metaid="metaid_197" variable="fER">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> xER </ci>
+            <apply>
+              <plus/>
+              <ci> xBH </ci>
+              <ci> xCA </ci>
+              <ci> xBU </ci>
+              <ci> xPC </ci>
+              <ci> xBO </ci>
+              <ci> xBV </ci>
+              <ci> xBT </ci>
+              <ci> xEL </ci>
+              <ci> xFP </ci>
+              <ci> xCH </ci>
+              <ci> xDP </ci>
+              <ci> xER </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule metaid="metaid_198" variable="fBO">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> xBO </ci>
+            <apply>
+              <plus/>
+              <ci> xBH </ci>
+              <ci> xCA </ci>
+              <ci> xBU </ci>
+              <ci> xPC </ci>
+              <ci> xBO </ci>
+              <ci> xBV </ci>
+              <ci> xBT </ci>
+              <ci> xEL </ci>
+              <ci> xFP </ci>
+              <ci> xCH </ci>
+              <ci> xDP </ci>
+              <ci> xER </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule metaid="metaid_199" variable="fCH">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> xCH </ci>
+            <apply>
+              <plus/>
+              <ci> xBH </ci>
+              <ci> xCA </ci>
+              <ci> xBU </ci>
+              <ci> xPC </ci>
+              <ci> xBO </ci>
+              <ci> xBV </ci>
+              <ci> xBT </ci>
+              <ci> xEL </ci>
+              <ci> xFP </ci>
+              <ci> xCH </ci>
+              <ci> xDP </ci>
+              <ci> xER </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule metaid="metaid_200" variable="fBT">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> xBT </ci>
+            <apply>
+              <plus/>
+              <ci> xBH </ci>
+              <ci> xCA </ci>
+              <ci> xBU </ci>
+              <ci> xPC </ci>
+              <ci> xBO </ci>
+              <ci> xBV </ci>
+              <ci> xBT </ci>
+              <ci> xEL </ci>
+              <ci> xFP </ci>
+              <ci> xCH </ci>
+              <ci> xDP </ci>
+              <ci> xER </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule metaid="metaid_201" variable="fEL">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> xEL </ci>
+            <apply>
+              <plus/>
+              <ci> xBH </ci>
+              <ci> xCA </ci>
+              <ci> xBU </ci>
+              <ci> xPC </ci>
+              <ci> xBO </ci>
+              <ci> xBV </ci>
+              <ci> xBT </ci>
+              <ci> xEL </ci>
+              <ci> xFP </ci>
+              <ci> xCH </ci>
+              <ci> xDP </ci>
+              <ci> xER </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule metaid="metaid_202" variable="fFP">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> xFP </ci>
+            <apply>
+              <plus/>
+              <ci> xBH </ci>
+              <ci> xCA </ci>
+              <ci> xBU </ci>
+              <ci> xPC </ci>
+              <ci> xBO </ci>
+              <ci> xBV </ci>
+              <ci> xBT </ci>
+              <ci> xEL </ci>
+              <ci> xFP </ci>
+              <ci> xCH </ci>
+              <ci> xDP </ci>
+              <ci> xER </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule metaid="metaid_203" variable="fDP">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> xDP </ci>
+            <apply>
+              <plus/>
+              <ci> xBH </ci>
+              <ci> xCA </ci>
+              <ci> xBU </ci>
+              <ci> xPC </ci>
+              <ci> xBO </ci>
+              <ci> xBV </ci>
+              <ci> xBT </ci>
+              <ci> xEL </ci>
+              <ci> xFP </ci>
+              <ci> xCH </ci>
+              <ci> xDP </ci>
+              <ci> xER </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+      <assignmentRule metaid="metaid_204" variable="fCA">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+          <apply>
+            <divide/>
+            <ci> xCA </ci>
+            <apply>
+              <plus/>
+              <ci> xBH </ci>
+              <ci> xCA </ci>
+              <ci> xBU </ci>
+              <ci> xPC </ci>
+              <ci> xBO </ci>
+              <ci> xBV </ci>
+              <ci> xBT </ci>
+              <ci> xEL </ci>
+              <ci> xFP </ci>
+              <ci> xCH </ci>
+              <ci> xDP </ci>
+              <ci> xER </ci>
+            </apply>
+          </apply>
+        </math>
+      </assignmentRule>
+    </listOfRules>
+    <listOfReactions>
+      <reaction metaid="metaid_218" id="v1" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference metaid="metaid_205" species="x1" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference metaid="metaid_206" species="xBH" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference metaid="metaid_207" species="xPC"/>
+          <modifierSpeciesReference metaid="metaid_208" species="xDP"/>
+          <modifierSpeciesReference metaid="metaid_209" species="xBO"/>
+          <modifierSpeciesReference metaid="metaid_210" species="xBV"/>
+          <modifierSpeciesReference metaid="metaid_211" species="xBT"/>
+          <modifierSpeciesReference metaid="metaid_212" species="xBU"/>
+          <modifierSpeciesReference metaid="metaid_213" species="xFP"/>
+          <modifierSpeciesReference metaid="metaid_214" species="xER"/>
+          <modifierSpeciesReference metaid="metaid_215" species="xCH"/>
+          <modifierSpeciesReference metaid="metaid_216" species="xEL"/>
+          <modifierSpeciesReference metaid="metaid_217" species="xCA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> xBH </ci>
+              <apply>
+                <plus/>
+                <ci> uBH </ci>
+                <apply>
+                  <times/>
+                  <ci> xBH </ci>
+                  <ci> aBHBH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCA </ci>
+                  <ci> aBHCA </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBU </ci>
+                  <ci> aBHBU </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xPC </ci>
+                  <ci> aBHPC </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBO </ci>
+                  <ci> aBHBO </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBV </ci>
+                  <ci> aBHBV </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBT </ci>
+                  <ci> aBHBT </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xEL </ci>
+                  <ci> aBHEL </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xFP </ci>
+                  <ci> aBHFP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCH </ci>
+                  <ci> aBHCH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xDP </ci>
+                  <ci> aBHDP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xER </ci>
+                  <ci> aBHER </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="metaid_232" id="v10" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference metaid="metaid_219" species="x10" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference metaid="metaid_220" species="xCH" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference metaid="metaid_221" species="xPC"/>
+          <modifierSpeciesReference metaid="metaid_222" species="xFP"/>
+          <modifierSpeciesReference metaid="metaid_223" species="xDP"/>
+          <modifierSpeciesReference metaid="metaid_224" species="xBH"/>
+          <modifierSpeciesReference metaid="metaid_225" species="xBO"/>
+          <modifierSpeciesReference metaid="metaid_226" species="xBV"/>
+          <modifierSpeciesReference metaid="metaid_227" species="xBT"/>
+          <modifierSpeciesReference metaid="metaid_228" species="xBU"/>
+          <modifierSpeciesReference metaid="metaid_229" species="xER"/>
+          <modifierSpeciesReference metaid="metaid_230" species="xEL"/>
+          <modifierSpeciesReference metaid="metaid_231" species="xCA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> xCH </ci>
+              <apply>
+                <plus/>
+                <ci> uCH </ci>
+                <apply>
+                  <times/>
+                  <ci> xBH </ci>
+                  <ci> aCHBH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCA </ci>
+                  <ci> aCHCA </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBU </ci>
+                  <ci> aCHBU </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xPC </ci>
+                  <ci> aCHPC </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBO </ci>
+                  <ci> aCHBO </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBV </ci>
+                  <ci> aCHBV </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBT </ci>
+                  <ci> aCHBT </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xEL </ci>
+                  <ci> aCHEL </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xFP </ci>
+                  <ci> aCHFP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCH </ci>
+                  <ci> aCHCH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xDP </ci>
+                  <ci> aCHDP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xER </ci>
+                  <ci> aCHER </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="metaid_246" id="v11" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference metaid="metaid_233" species="x11" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference metaid="metaid_234" species="xDP" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference metaid="metaid_235" species="xPC"/>
+          <modifierSpeciesReference metaid="metaid_236" species="xFP"/>
+          <modifierSpeciesReference metaid="metaid_237" species="xBH"/>
+          <modifierSpeciesReference metaid="metaid_238" species="xBO"/>
+          <modifierSpeciesReference metaid="metaid_239" species="xBV"/>
+          <modifierSpeciesReference metaid="metaid_240" species="xBT"/>
+          <modifierSpeciesReference metaid="metaid_241" species="xBU"/>
+          <modifierSpeciesReference metaid="metaid_242" species="xCH"/>
+          <modifierSpeciesReference metaid="metaid_243" species="xEL"/>
+          <modifierSpeciesReference metaid="metaid_244" species="xER"/>
+          <modifierSpeciesReference metaid="metaid_245" species="xCA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> xDP </ci>
+              <apply>
+                <plus/>
+                <ci> uDP </ci>
+                <apply>
+                  <times/>
+                  <ci> xBH </ci>
+                  <ci> aDPBH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCA </ci>
+                  <ci> aDPCA </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBU </ci>
+                  <ci> aDPBU </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xPC </ci>
+                  <ci> aDPPC </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBO </ci>
+                  <ci> aDPBO </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBV </ci>
+                  <ci> aDPBV </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBT </ci>
+                  <ci> aDPBT </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xEL </ci>
+                  <ci> aDPEL </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xFP </ci>
+                  <ci> aDPFP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCH </ci>
+                  <ci> aDPCH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xDP </ci>
+                  <ci> aDPDP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xER </ci>
+                  <ci> aDPER </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="metaid_260" id="v12" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference metaid="metaid_247" species="x12" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference metaid="metaid_248" species="xER" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference metaid="metaid_249" species="xPC"/>
+          <modifierSpeciesReference metaid="metaid_250" species="xFP"/>
+          <modifierSpeciesReference metaid="metaid_251" species="xDP"/>
+          <modifierSpeciesReference metaid="metaid_252" species="xBH"/>
+          <modifierSpeciesReference metaid="metaid_253" species="xBO"/>
+          <modifierSpeciesReference metaid="metaid_254" species="xBV"/>
+          <modifierSpeciesReference metaid="metaid_255" species="xBT"/>
+          <modifierSpeciesReference metaid="metaid_256" species="xBU"/>
+          <modifierSpeciesReference metaid="metaid_257" species="xCH"/>
+          <modifierSpeciesReference metaid="metaid_258" species="xEL"/>
+          <modifierSpeciesReference metaid="metaid_259" species="xCA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> xER </ci>
+              <apply>
+                <plus/>
+                <ci> uER </ci>
+                <apply>
+                  <times/>
+                  <ci> xBH </ci>
+                  <ci> aERBH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCA </ci>
+                  <ci> aERCA </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBU </ci>
+                  <ci> aERBU </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xPC </ci>
+                  <ci> aERPC </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBO </ci>
+                  <ci> aERBO </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBV </ci>
+                  <ci> aERBV </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBT </ci>
+                  <ci> aERBT </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xEL </ci>
+                  <ci> aEREL </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xFP </ci>
+                  <ci> aERFP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCH </ci>
+                  <ci> aERCH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xDP </ci>
+                  <ci> aERDP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xER </ci>
+                  <ci> aERER </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="metaid_274" id="v2" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference metaid="metaid_261" species="x2" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference metaid="metaid_262" species="xCA" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference metaid="metaid_263" species="xBT"/>
+          <modifierSpeciesReference metaid="metaid_264" species="xPC"/>
+          <modifierSpeciesReference metaid="metaid_265" species="xFP"/>
+          <modifierSpeciesReference metaid="metaid_266" species="xDP"/>
+          <modifierSpeciesReference metaid="metaid_267" species="xBH"/>
+          <modifierSpeciesReference metaid="metaid_268" species="xBO"/>
+          <modifierSpeciesReference metaid="metaid_269" species="xBV"/>
+          <modifierSpeciesReference metaid="metaid_270" species="xBU"/>
+          <modifierSpeciesReference metaid="metaid_271" species="xER"/>
+          <modifierSpeciesReference metaid="metaid_272" species="xCH"/>
+          <modifierSpeciesReference metaid="metaid_273" species="xEL"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> xCA </ci>
+              <apply>
+                <plus/>
+                <ci> uCA </ci>
+                <apply>
+                  <times/>
+                  <ci> xBH </ci>
+                  <ci> aCABH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCA </ci>
+                  <ci> aCACA </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBU </ci>
+                  <ci> aCABU </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xPC </ci>
+                  <ci> aCAPC </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBO </ci>
+                  <ci> aCABO </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBV </ci>
+                  <ci> aCABV </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBT </ci>
+                  <ci> aCABT </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xEL </ci>
+                  <ci> aCAEL </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xFP </ci>
+                  <ci> aCAFP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCH </ci>
+                  <ci> aCACH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xDP </ci>
+                  <ci> aCADP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xER </ci>
+                  <ci> aCAER </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="metaid_288" id="v3" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference metaid="metaid_275" species="x3" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference metaid="metaid_276" species="xBU" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference metaid="metaid_277" species="xPC"/>
+          <modifierSpeciesReference metaid="metaid_278" species="xFP"/>
+          <modifierSpeciesReference metaid="metaid_279" species="xDP"/>
+          <modifierSpeciesReference metaid="metaid_280" species="xBH"/>
+          <modifierSpeciesReference metaid="metaid_281" species="xBO"/>
+          <modifierSpeciesReference metaid="metaid_282" species="xBV"/>
+          <modifierSpeciesReference metaid="metaid_283" species="xBT"/>
+          <modifierSpeciesReference metaid="metaid_284" species="xER"/>
+          <modifierSpeciesReference metaid="metaid_285" species="xCH"/>
+          <modifierSpeciesReference metaid="metaid_286" species="xEL"/>
+          <modifierSpeciesReference metaid="metaid_287" species="xCA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> xBU </ci>
+              <apply>
+                <plus/>
+                <ci> uBU </ci>
+                <apply>
+                  <times/>
+                  <ci> xBH </ci>
+                  <ci> aBUBH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCA </ci>
+                  <ci> aBUCA </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBU </ci>
+                  <ci> aBUBU </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xPC </ci>
+                  <ci> aBUPC </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBO </ci>
+                  <ci> aBUBO </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBV </ci>
+                  <ci> aBUBV </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBT </ci>
+                  <ci> aBUBT </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xEL </ci>
+                  <ci> aBUEL </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xFP </ci>
+                  <ci> aBUFP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCH </ci>
+                  <ci> aBUCH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xDP </ci>
+                  <ci> aBUDP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xER </ci>
+                  <ci> aBUER </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="metaid_302" id="v4" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference metaid="metaid_289" species="x4" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference metaid="metaid_290" species="xPC" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference metaid="metaid_291" species="xFP"/>
+          <modifierSpeciesReference metaid="metaid_292" species="xDP"/>
+          <modifierSpeciesReference metaid="metaid_293" species="xBH"/>
+          <modifierSpeciesReference metaid="metaid_294" species="xBO"/>
+          <modifierSpeciesReference metaid="metaid_295" species="xBV"/>
+          <modifierSpeciesReference metaid="metaid_296" species="xBT"/>
+          <modifierSpeciesReference metaid="metaid_297" species="xBU"/>
+          <modifierSpeciesReference metaid="metaid_298" species="xER"/>
+          <modifierSpeciesReference metaid="metaid_299" species="xCH"/>
+          <modifierSpeciesReference metaid="metaid_300" species="xEL"/>
+          <modifierSpeciesReference metaid="metaid_301" species="xCA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> xPC </ci>
+              <apply>
+                <plus/>
+                <ci> uPC </ci>
+                <apply>
+                  <times/>
+                  <ci> xBH </ci>
+                  <ci> aPCBH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCA </ci>
+                  <ci> aPCCA </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBU </ci>
+                  <ci> aPCBU </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xPC </ci>
+                  <ci> aPCPC </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBO </ci>
+                  <ci> aPCBO </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBV </ci>
+                  <ci> aPCBV </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBT </ci>
+                  <ci> aPCBT </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xEL </ci>
+                  <ci> aPCEL </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xFP </ci>
+                  <ci> aPCFP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCH </ci>
+                  <ci> aPCCH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xDP </ci>
+                  <ci> aPCDP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xER </ci>
+                  <ci> aPCER </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="metaid_316" id="v5" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference metaid="metaid_303" species="x5" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference metaid="metaid_304" species="xBO" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference metaid="metaid_305" species="xPC"/>
+          <modifierSpeciesReference metaid="metaid_306" species="xFP"/>
+          <modifierSpeciesReference metaid="metaid_307" species="xDP"/>
+          <modifierSpeciesReference metaid="metaid_308" species="xBH"/>
+          <modifierSpeciesReference metaid="metaid_309" species="xBV"/>
+          <modifierSpeciesReference metaid="metaid_310" species="xBT"/>
+          <modifierSpeciesReference metaid="metaid_311" species="xBU"/>
+          <modifierSpeciesReference metaid="metaid_312" species="xER"/>
+          <modifierSpeciesReference metaid="metaid_313" species="xCH"/>
+          <modifierSpeciesReference metaid="metaid_314" species="xEL"/>
+          <modifierSpeciesReference metaid="metaid_315" species="xCA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> xBO </ci>
+              <apply>
+                <plus/>
+                <ci> uBO </ci>
+                <apply>
+                  <times/>
+                  <ci> xBH </ci>
+                  <ci> aBOBH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCA </ci>
+                  <ci> aBOCA </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBU </ci>
+                  <ci> aBOBU </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xPC </ci>
+                  <ci> aBOPC </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBO </ci>
+                  <ci> aBOBO </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBV </ci>
+                  <ci> aBOBV </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBT </ci>
+                  <ci> aBOBT </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xEL </ci>
+                  <ci> aBOEL </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xFP </ci>
+                  <ci> aBOFP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCH </ci>
+                  <ci> aBOCH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xDP </ci>
+                  <ci> aBODP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xER </ci>
+                  <ci> aBOER </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="metaid_330" id="v6" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference metaid="metaid_317" species="x6" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference metaid="metaid_318" species="xBV" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference metaid="metaid_319" species="xPC"/>
+          <modifierSpeciesReference metaid="metaid_320" species="xDP"/>
+          <modifierSpeciesReference metaid="metaid_321" species="xBH"/>
+          <modifierSpeciesReference metaid="metaid_322" species="xBO"/>
+          <modifierSpeciesReference metaid="metaid_323" species="xBT"/>
+          <modifierSpeciesReference metaid="metaid_324" species="xBU"/>
+          <modifierSpeciesReference metaid="metaid_325" species="xFP"/>
+          <modifierSpeciesReference metaid="metaid_326" species="xER"/>
+          <modifierSpeciesReference metaid="metaid_327" species="xCH"/>
+          <modifierSpeciesReference metaid="metaid_328" species="xEL"/>
+          <modifierSpeciesReference metaid="metaid_329" species="xCA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> xBV </ci>
+              <apply>
+                <plus/>
+                <ci> uBV </ci>
+                <apply>
+                  <times/>
+                  <ci> xBH </ci>
+                  <ci> aBVBH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCA </ci>
+                  <ci> aBVCA </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBU </ci>
+                  <ci> aBVBU </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xPC </ci>
+                  <ci> aBVPC </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBO </ci>
+                  <ci> aBVBO </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBV </ci>
+                  <ci> aBVBV </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBT </ci>
+                  <ci> aBVBT </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xEL </ci>
+                  <ci> aBVEL </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xFP </ci>
+                  <ci> aBVFP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCH </ci>
+                  <ci> aBVCH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xDP </ci>
+                  <ci> aBVDP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xER </ci>
+                  <ci> aBVER </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="metaid_344" id="v7" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference metaid="metaid_331" species="x7" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference metaid="metaid_332" species="xBT" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference metaid="metaid_333" species="xPC"/>
+          <modifierSpeciesReference metaid="metaid_334" species="xDP"/>
+          <modifierSpeciesReference metaid="metaid_335" species="xBH"/>
+          <modifierSpeciesReference metaid="metaid_336" species="xBO"/>
+          <modifierSpeciesReference metaid="metaid_337" species="xBV"/>
+          <modifierSpeciesReference metaid="metaid_338" species="xBU"/>
+          <modifierSpeciesReference metaid="metaid_339" species="xFP"/>
+          <modifierSpeciesReference metaid="metaid_340" species="xER"/>
+          <modifierSpeciesReference metaid="metaid_341" species="xCH"/>
+          <modifierSpeciesReference metaid="metaid_342" species="xEL"/>
+          <modifierSpeciesReference metaid="metaid_343" species="xCA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> xBT </ci>
+              <apply>
+                <plus/>
+                <ci> uBT </ci>
+                <apply>
+                  <times/>
+                  <ci> xBH </ci>
+                  <ci> aBTBH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCA </ci>
+                  <ci> aBTCA </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBU </ci>
+                  <ci> aBTBU </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xPC </ci>
+                  <ci> aBTPC </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBO </ci>
+                  <ci> aBTBO </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBV </ci>
+                  <ci> aBTBV </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBT </ci>
+                  <ci> aBTBT </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xEL </ci>
+                  <ci> aBTEL </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xFP </ci>
+                  <ci> aBTFP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCH </ci>
+                  <ci> aBTCH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xDP </ci>
+                  <ci> aBTDP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xER </ci>
+                  <ci> aBTER </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="metaid_358" id="v8" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference metaid="metaid_345" species="x8" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference metaid="metaid_346" species="xEL" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference metaid="metaid_347" species="xPC"/>
+          <modifierSpeciesReference metaid="metaid_348" species="xFP"/>
+          <modifierSpeciesReference metaid="metaid_349" species="xDP"/>
+          <modifierSpeciesReference metaid="metaid_350" species="xBH"/>
+          <modifierSpeciesReference metaid="metaid_351" species="xBO"/>
+          <modifierSpeciesReference metaid="metaid_352" species="xBV"/>
+          <modifierSpeciesReference metaid="metaid_353" species="xBT"/>
+          <modifierSpeciesReference metaid="metaid_354" species="xBU"/>
+          <modifierSpeciesReference metaid="metaid_355" species="xER"/>
+          <modifierSpeciesReference metaid="metaid_356" species="xCH"/>
+          <modifierSpeciesReference metaid="metaid_357" species="xCA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> xEL </ci>
+              <apply>
+                <plus/>
+                <ci> uEL </ci>
+                <apply>
+                  <times/>
+                  <ci> xBH </ci>
+                  <ci> aELBH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCA </ci>
+                  <ci> aELCA </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBU </ci>
+                  <ci> aELBU </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xPC </ci>
+                  <ci> aELPC </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBO </ci>
+                  <ci> aELBO </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBV </ci>
+                  <ci> aELBV </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBT </ci>
+                  <ci> aELBT </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xEL </ci>
+                  <ci> aELEL </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xFP </ci>
+                  <ci> aELFP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCH </ci>
+                  <ci> aELCH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xDP </ci>
+                  <ci> aELDP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xER </ci>
+                  <ci> aELER </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+      <reaction metaid="metaid_372" id="v9" reversible="true" fast="false">
+        <listOfReactants>
+          <speciesReference metaid="metaid_359" species="x9" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference metaid="metaid_360" species="xFP" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+        <listOfModifiers>
+          <modifierSpeciesReference metaid="metaid_361" species="xPC"/>
+          <modifierSpeciesReference metaid="metaid_362" species="xDP"/>
+          <modifierSpeciesReference metaid="metaid_363" species="xBH"/>
+          <modifierSpeciesReference metaid="metaid_364" species="xBO"/>
+          <modifierSpeciesReference metaid="metaid_365" species="xBV"/>
+          <modifierSpeciesReference metaid="metaid_366" species="xBT"/>
+          <modifierSpeciesReference metaid="metaid_367" species="xBU"/>
+          <modifierSpeciesReference metaid="metaid_368" species="xER"/>
+          <modifierSpeciesReference metaid="metaid_369" species="xCH"/>
+          <modifierSpeciesReference metaid="metaid_370" species="xEL"/>
+          <modifierSpeciesReference metaid="metaid_371" species="xCA"/>
+        </listOfModifiers>
+        <kineticLaw>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <times/>
+              <ci> xFP </ci>
+              <apply>
+                <plus/>
+                <ci> uFP </ci>
+                <apply>
+                  <times/>
+                  <ci> xBH </ci>
+                  <ci> aFPBH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCA </ci>
+                  <ci> aFPCA </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBU </ci>
+                  <ci> aFPBU </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xPC </ci>
+                  <ci> aFPPC </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBO </ci>
+                  <ci> aFPBO </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBV </ci>
+                  <ci> aFPBV </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xBT </ci>
+                  <ci> aFPBT </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xEL </ci>
+                  <ci> aFPEL </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xFP </ci>
+                  <ci> aFPFP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xCH </ci>
+                  <ci> aFPCH </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xDP </ci>
+                  <ci> aFPDP </ci>
+                </apply>
+                <apply>
+                  <times/>
+                  <ci> xER </ci>
+                  <ci> aFPER </ci>
+                </apply>
+              </apply>
+            </apply>
+          </math>
+        </kineticLaw>
+      </reaction>
+    </listOfReactions>
+    <listOfEvents>
+      <event metaid="metaid_373" id="event24" useValuesFromTriggerTime="true">
+        <trigger initialValue="false" persistent="false">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <gt/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <cn type="integer"> 24 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 0 </cn>
+          </math>
+        </delay>
+        <listOfEventAssignments>
+          <eventAssignment metaid="metaid_374" variable="xBH">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xBH </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_375" variable="xCA">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xCA </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_376" variable="xBU">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xBU </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_377" variable="xPC">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xPC </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_378" variable="xBO">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xBO </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_379" variable="xBV">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xBV </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_380" variable="xBT">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xBT </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_381" variable="xEL">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xEL </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_382" variable="xFP">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xFP </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_383" variable="xCH">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xCH </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_384" variable="xDP">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xDP </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_385" variable="xER">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xER </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+      <event metaid="metaid_386" id="event48" useValuesFromTriggerTime="true">
+        <trigger initialValue="false" persistent="false">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <apply>
+              <gt/>
+              <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+              <cn type="integer"> 48 </cn>
+            </apply>
+          </math>
+        </trigger>
+        <delay>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <cn type="integer"> 0 </cn>
+          </math>
+        </delay>
+        <listOfEventAssignments>
+          <eventAssignment metaid="metaid_387" variable="xBO">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xBO </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_388" variable="xBV">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xBV </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_389" variable="xBT">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xBT </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_390" variable="xEL">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xEL </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_391" variable="xBH">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xBH </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_392" variable="xCA">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xCA </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_393" variable="xBU">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xBU </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_394" variable="xPC">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xPC </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_395" variable="xFP">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xFP </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_396" variable="xCH">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xCH </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_397" variable="xDP">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xDP </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+          <eventAssignment metaid="metaid_398" variable="xER">
+            <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <apply>
+                <times/>
+                <cn> 0.05 </cn>
+                <ci> xER </ci>
+              </apply>
+            </math>
+          </eventAssignment>
+        </listOfEventAssignments>
+      </event>
+    </listOfEvents>
+  </model>
+</sbml>
