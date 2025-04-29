@@ -23,8 +23,10 @@ conda create --name CSB3 -c conda-forge python jupyterlab matplotlib pandas nump
 `CSB99` used for L99 (wip)
 
 ```sh
-conda create --name CSB99 -c conda-forge python jupyterlab matplotlib pandas numpy scipy ipywidgets
+conda create --name CSB99 -c conda-forge python jupyterlab matplotlib pandas numpy scipy manim
 ```
+
+possibly need to conda install python=3.1 for manim
 
 ## how to run
 
