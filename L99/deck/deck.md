@@ -4,9 +4,10 @@ class: invert
 math: katex
 ---
 
-# The Susceptible-Infected-Recovered (SIR) Model
+# A computational analysis of the Susceptible-Infected-Recovered (SIR) Model
 
-wo
+Ella Xu
+April 29, 2025
 
 ---
 
@@ -38,13 +39,13 @@ $\large\frac{dR}{dt} = \gamma I$
 
 # SIR Dynamics
 
-<img src="../media/images/sir-dynamics.png" width="80%" />
+<img src="https://edu.ella.cx/csb/sir.png" width="80%" />
 
 ---
 
-# What happens if we change ($\beta$)?
+# What happens if we change $\beta$?
 
-<img src="../media/images/sir-dynamics-with-r.png" width="100%" />
+<img src="https://edu.ella.cx/csb/sir-with-r.png" width="100%" />
 
 ---
 
@@ -61,3 +62,7 @@ $R_0 > 1$ describes an outbreak/epidemic.
 - SEIR model (latency and temporary immunity)
 - localized networks
 - stochastic effects
+
+---
+
+w

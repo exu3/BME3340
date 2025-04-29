@@ -20,13 +20,13 @@ conda create --name CSB2 -c conda-forge python jupyterlab matplotlib pandas nump
 conda create --name CSB3 -c conda-forge python jupyterlab matplotlib pandas numpy=1.23.3 scipy cobra
 ```
 
-`CSB99` used for L99 (wip)
+`CSB99` used for `L99_with_mn` (a wip/abandoned version of L99 final project)
 
 ```sh
 conda create --name CSB99 -c conda-forge python jupyterlab matplotlib pandas numpy scipy manim
 ```
 
-possibly need to conda install python=3.1 for manim
+###### possibly need to `conda install python=3.1` to install `manim`
 
 ## how to run
 
