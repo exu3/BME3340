@@ -6,7 +6,7 @@ math: katex
 
 # The Susceptible-Infected-Recovered (SIR) Model
 
-woof!
+wo
 
 ---
 
