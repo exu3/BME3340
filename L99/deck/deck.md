@@ -49,6 +49,12 @@ $\large\frac{dR}{dt} = \gamma I$
 
 ---
 
+# What happens if we change $\beta$?
+
+<video src="https://edu.ella.cx/csb/SmoothSIRAnimation@2025-04-30@15-18-13.mp4" width='70%' controls></video>
+
+---
+
 # $R_0$ (not to be confused with $R(0)$)
 
 $\Large R_0 = \frac{\beta}{\gamma}$
