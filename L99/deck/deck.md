@@ -4,7 +4,7 @@ class: invert
 math: katex
 ---
 
-# A computational analysis of the Susceptible-Infected-Recovered (SIR) Model
+# The Susceptible-Infected-Recovered (SIR) Model
 
 Ella Xu
 April 29, 2025
@@ -59,10 +59,10 @@ $R_0 > 1$ describes an outbreak/epidemic.
 
 # Limitations and extensions of the classical SIR model
 
-- SEIR model (latency and temporary immunity)
+- SEIRS model - latency and temporary immunity (Bjornstad et. al. 2020)
 - localized networks
 - stochastic effects
 
 ---
 
-w
+ohyeah
